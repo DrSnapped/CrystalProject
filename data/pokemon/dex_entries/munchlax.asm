@@ -1,9 +1,10 @@
-	db "OGRE DARNER@" ; species name
-	dw 603, 1135 ; height, weight
+	db "BIG EATER@" ; species name
+	dw 200, 2315 ; height, weight
 
-	db   "By churning its"
-	next "wings, it creates"
-	next "shock waves that"
-	page "inflict critical"
-	next "internal injuries"
-	next "on foes.@"
+	db   "In its desperation"
+	next "to gulp down food,"
+	next "it forgets about"
+
+	page "the food it has"
+	next "hidden under its"
+	next "fur.@"
