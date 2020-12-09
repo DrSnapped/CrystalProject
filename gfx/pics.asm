@@ -714,8 +714,8 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 
 SECTION "Pics 19", ROMX
 
-MunchlaxFrontpic: INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
-MunchlaxBackpic:  INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"
+YanmegaFrontpic:     INCBIN "gfx/pokemon/yanmega/front.animated.2bpp.lz"
+YanmegaBackpic:      INCBIN "gfx/pokemon/yanmega/back.2bpp.lz"
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
