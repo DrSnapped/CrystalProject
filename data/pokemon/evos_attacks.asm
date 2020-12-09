@@ -2606,6 +2606,7 @@ SunfloraEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
+	db EVOLVE_LEVEL, 33, YANMEGA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
@@ -2614,6 +2615,7 @@ YanmaEvosAttacks:
 	db 19, SONICBOOM
 	db 25, DETECT
 	db 31, SUPERSONIC
+	db 33, ANCIENTPOWER
 	db 37, WING_ATTACK
 	db 43, SCREECH
 	db 0 ; no more level-up moves
