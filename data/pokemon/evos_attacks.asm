@@ -3359,18 +3359,16 @@ CelebiEvosAttacks:
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
 
-MunchlaxEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
+YanmegaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, METRONOME
-	db 8, AMNESIA
-	db 15, DEFENSE_CURL
-	db 22, BELLY_DRUM
-	db 29, HEADBUTT
-	db 36, SCREECH
-	db 36, REST
-	db 43, BODY_SLAM
-	db 50, ROLLOUT
-	db 57, DOUBLE_EDGE
+	db 1, FORESIGHT
+	db 7, QUICK_ATTACK
+	db 13, DOUBLE_TEAM
+	db 19, SONICBOOM
+	db 25, DETECT
+	db 31, SUPERSONIC
+	db 33, ANCIENTPOWER
+	db 37, SLASH
+	db 43, SCREECH
 	db 0 ; no more level-up moves
