@@ -252,4 +252,4 @@ EvosAttacksPointers::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
-	dw MunchlaxEvosAttacks
+	dw YanmegaEvosAttacks
