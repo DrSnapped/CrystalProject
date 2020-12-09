@@ -283,5 +283,6 @@ INCLUDE "data/pokemon/base_stats/tyranitar.asm"
 INCLUDE "data/pokemon/base_stats/lugia.asm"
 INCLUDE "data/pokemon/base_stats/ho_oh.asm"
 INCLUDE "data/pokemon/base_stats/celebi.asm"
+INCLUDE "data/pokemon/base_stats/munchlax.asm"
 .End:
 	assert BaseData.End - BaseData == NUM_POKEMON * BASE_DATA_SIZE
