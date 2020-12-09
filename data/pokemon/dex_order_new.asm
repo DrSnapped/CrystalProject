@@ -225,6 +225,7 @@ NewPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db AERODACTYL
+	db MUNCHLAX
 	db SNORLAX
 	db BULBASAUR
 	db IVYSAUR
@@ -252,4 +253,3 @@ NewPokedexOrder:
 	db MEWTWO
 	db MEW
 	db CELEBI
-	db MUNCHLAX
