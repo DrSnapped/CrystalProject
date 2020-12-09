@@ -138,7 +138,6 @@ AlphabeticalPokedexOrder:
 	db MOLTRES
 	db MR__MIME
 	db MUK
-	db MUNCHLAX
 	db MURKROW
 	db NATU
 	db NIDOKING
@@ -251,5 +250,6 @@ AlphabeticalPokedexOrder:
 	db WOOPER
 	db XATU
 	db YANMA
+	db YANMEGA
 	db ZAPDOS
 	db ZUBAT
