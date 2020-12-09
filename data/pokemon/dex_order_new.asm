@@ -102,6 +102,7 @@ NewPokedexOrder:
 	db NIDORINO
 	db NIDOKING
 	db YANMA
+	db YANMEGA
 	db SUNKERN
 	db SUNFLORA
 	db EXEGGCUTE
@@ -225,7 +226,6 @@ NewPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db AERODACTYL
-	db MUNCHLAX
 	db SNORLAX
 	db BULBASAUR
 	db IVYSAUR
