@@ -250,4 +250,4 @@ FramesPointers:
 	dw LugiaFrames
 	dw HoOhFrames
 	dw CelebiFrames
-	dw MunchlaxFrames
+	dw YanmegaFrames
