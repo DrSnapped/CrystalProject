@@ -257,7 +257,6 @@ MoveDescriptions::
 	dw MoveFFDescription
 	dw Move00Description
 
-NastyPlotDescription:
 MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
