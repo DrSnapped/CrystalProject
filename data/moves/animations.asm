@@ -254,7 +254,7 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_SilverWind
-	dw BattleAnim_254
+	dw BattleAnim_DrillRun
 	dw BattleAnim_SweetScent2
 ; $100
 	dw BattleAnim_ThrowPokeBall
@@ -4460,6 +4460,34 @@ BattleAnim_PsychUp:
 	anim_call BattleAnim_ShowMon_0
 	anim_wait 16
 	anim_ret
+
+BattleAnim_DrillRun:
+    anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
+    anim_call BattleAnim_TargetObj_2Row
+    anim_bgeffect ANIM_BG_BOUNCE_DOWN, $0, $1, $0
+    anim_sound 0, 0, SFX_RETURN
+    anim_wait 64
+    anim_incbgeffect ANIM_BG_BOUNCE_DOWN
+    anim_wait 32
+    anim_obj ANIM_OBJ_HORN, 72, 80, $1
+    anim_wait 16
+    anim_sound 0, 1, SFX_HORN_ATTACK
+.loop
+    anim_sound 0, 1, SFX_PECK
+    anim_obj ANIM_OBJ_02, 124, 56, $0
+    anim_wait 4
+    anim_sound 0, 1, SFX_PECK
+    anim_obj ANIM_OBJ_02, 132, 48, $0
+    anim_wait 4
+    anim_sound 0, 1, SFX_PECK
+    anim_obj ANIM_OBJ_02, 140, 56, $0
+    anim_wait 4
+    anim_sound 0, 1, SFX_PECK
+    anim_obj ANIM_OBJ_02, 132, 64, $0
+    anim_wait 4
+    anim_loop 5, .loop
+    anim_wait 16
+    anim_ret
 
 BattleAnim_Extremespeed:
 	anim_2gfx ANIM_GFX_SPEED, ANIM_GFX_CUT
