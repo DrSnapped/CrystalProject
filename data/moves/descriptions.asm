@@ -252,7 +252,7 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw NastyPlotDescription
-	dw MoveFDDescription
+	dw SilverWindDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
@@ -1270,3 +1270,7 @@ BeatUpDescription:
 NastyPlotDescription:
 	db   "Sharply increases"
 	next "user's SPCL.ATK.@"
+
+SilverWindDescription:
+	db   "An attack that may"
+	next "raise all stats.@"
