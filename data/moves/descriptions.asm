@@ -253,12 +253,10 @@ MoveDescriptions::
 	dw BeatUpDescription
 	dw NastyPlotDescription
 	dw SilverWindDescription
-	dw MoveFEDescription
+	dw DrillRunDescription
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFDDescription:
-MoveFEDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"
@@ -1274,3 +1272,7 @@ NastyPlotDescription:
 SilverWindDescription:
 	db   "An attack that may"
 	next "raise all stats.@"
+
+DrillRunDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
