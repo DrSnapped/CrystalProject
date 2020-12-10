@@ -4474,16 +4474,16 @@ BattleAnim_DrillRun:
     anim_sound 0, 1, SFX_HORN_ATTACK
 .loop
     anim_sound 0, 1, SFX_PECK
-    anim_obj ANIM_OBJ_02, 124, 56, $0
+    anim_obj ANIM_OBJ_HIT_SMALL_YFIX, 124, 56, $0
     anim_wait 4
     anim_sound 0, 1, SFX_PECK
-    anim_obj ANIM_OBJ_02, 132, 48, $0
+    anim_obj ANIM_OBJ_HIT_SMALL_YFIX, 132, 48, $0
     anim_wait 4
     anim_sound 0, 1, SFX_PECK
-    anim_obj ANIM_OBJ_02, 140, 56, $0
+    anim_obj ANIM_OBJ_HIT_SMALL_YFIX, 140, 56, $0
     anim_wait 4
     anim_sound 0, 1, SFX_PECK
-    anim_obj ANIM_OBJ_02, 132, 64, $0
+    anim_obj ANIM_OBJ_HIT_SMALL_YFIX, 132, 64, $0
     anim_wait 4
     anim_loop 5, .loop
     anim_wait 16
