@@ -253,7 +253,7 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_NastyPlot
-	dw BattleAnim_253
+	dw BattleAnim_SilverWind
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
 ; $100
@@ -4506,6 +4506,33 @@ BattleAnim_Ancientpower:
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
 	anim_wait 6
 	anim_ret
+
+BattleAnim_SilverWind:
+    anim_2gfx ANIM_GFX_WIND, ANIM_GFX_HIT
+    anim_obp0 $fc
+    anim_call BattleAnim_TargetObj_1Row
+    anim_obj ANIM_OBJ_AGILITY, 8, 24, $10
+    anim_obj ANIM_OBJ_AGILITY, 8, 48, $2
+    anim_obj ANIM_OBJ_AGILITY, 8, 88, $8
+    anim_wait 4
+    anim_obj ANIM_OBJ_AGILITY, 8, 32, $6
+    anim_obj ANIM_OBJ_AGILITY, 8, 56, $c
+    anim_obj ANIM_OBJ_AGILITY, 8, 80, $4
+    anim_obj ANIM_OBJ_AGILITY, 8, 104, $e
+.loop
+    anim_sound 0, 0, SFX_RAZOR_WIND
+    anim_wait 4
+    anim_sound 0, 1, SFX_COMET_PUNCH
+    anim_obj ANIM_OBJ_04, 120, 32, $0
+    anim_wait 8
+    anim_sound 0, 1, SFX_COMET_PUNCH
+    anim_obj ANIM_OBJ_04, 152, 40, $0
+    anim_wait 8
+    anim_sound 0, 1, SFX_COMET_PUNCH
+    anim_obj ANIM_OBJ_04, 136, 48, $0
+    anim_wait 32
+    anim_call BattleAnim_ShowMon_0
+    anim_ret
 
 BattleAnim_ShadowBall:
 	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_SMOKE
