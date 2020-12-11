@@ -509,5 +509,7 @@ PokemonPicPointers::
 	dba CelebiBackpic
 	dba YanmegaFrontpic
 	dba YanmegaBackpic
+	dba MismagiusFrontpic
+	dba MismagiusBackpic
 	dba EggPic
 	dbw -1, -1 ; unused
