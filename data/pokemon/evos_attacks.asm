@@ -2697,6 +2697,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, MISMAGIUS
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, PSYWAVE
@@ -3373,4 +3374,11 @@ YanmegaEvosAttacks:
 	db 33, ANCIENTPOWER
 	db 37, SLASH
 	db 43, SCREECH
+	db 0 ; no more level-up moves
+
+MismagiusEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, GROWL
+	db 1, PSYWAVE
+	db 1, SPITE
 	db 0 ; no more level-up moves
