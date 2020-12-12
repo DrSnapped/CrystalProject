@@ -10,7 +10,7 @@ EvolutionMoves::
 	db NO_MOVE      ; BLASTOISE
 	db NO_MOVE      ; CATERPIE
 	db HARDEN       ; METAPOD
-	db CONFUSION    ; BUTTERFREE
+	db GUST         ; BUTTERFREE
 	db NO_MOVE      ; WEEDLE
 	db HARDEN       ; KAKUNA
 	db FURY_ATTACK  ; BEEDRILL
@@ -36,7 +36,7 @@ EvolutionMoves::
 	db NO_MOVE      ; CLEFAIRY
 	db NO_MOVE      ; CLEFABLE
 	db NO_MOVE      ; VULPIX
-	db NO_MOVE      ; NINETALES
+	db NASTY_PLOT   ; NINETALES
 	db NO_MOVE      ; JIGGLYPUFF
 	db NO_MOVE      ; WIGGLYTUFF
 	db NO_MOVE      ; ZUBAT
