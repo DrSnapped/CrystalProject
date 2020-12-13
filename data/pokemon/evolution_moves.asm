@@ -112,7 +112,6 @@ EvolutionMoves::
 	db NO_MOVE      ; RHYHORN
 	db NO_MOVE      ; RHYDON
 	db NO_MOVE      ; CHANSEY
-	db NO_MOVE      ; CUBONE
 	db NO_MOVE      ; TANGELA
 	db NO_MOVE      ; KANGASKHAN
 	db NO_MOVE      ; HORSEA
