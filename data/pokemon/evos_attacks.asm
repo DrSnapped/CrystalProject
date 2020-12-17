@@ -564,13 +564,14 @@ OddishEvosAttacks:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 7, SWEET_SCENT
-	db 14, POISONPOWDER
-	db 16, STUN_SPORE
-	db 18, SLEEP_POWDER
-	db 23, ACID
-	db 32, MOONLIGHT
-	db 39, PETAL_DANCE
+	db 6, SWEET_SCENT
+	db 11, ACID
+	db 15, POISONPOWDER
+	db 17, STUN_SPORE
+	db 19, SLEEP_POWDER
+	db 24, MEGA_DRAIN
+	db 29, MOONLIGHT
+	db 33, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -578,13 +579,14 @@ GloomEvosAttacks:
 	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 7, SWEET_SCENT
-	db 14, POISONPOWDER
-	db 16, STUN_SPORE
-	db 18, SLEEP_POWDER
-	db 24, ACID
+	db 6, SWEET_SCENT
+	db 11, ACID
+	db 15, POISONPOWDER
+	db 17, STUN_SPORE
+	db 19, SLEEP_POWDER
+	db 27, MEGA_DRAIN
 	db 35, MOONLIGHT
-	db 44, PETAL_DANCE
+	db 42, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
