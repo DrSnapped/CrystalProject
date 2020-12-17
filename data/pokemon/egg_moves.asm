@@ -548,6 +548,7 @@ HoothootEggMoves:
 	db SKY_ATTACK
 	db AGILITY
 	db NIGHT_SHADE
+	db NASTY_PLOT
 	db -1 ; end
 
 LedybaEggMoves:
