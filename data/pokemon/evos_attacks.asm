@@ -1620,7 +1620,8 @@ HorseaEvosAttacks:
 	db 24, BUBBLEBEAM
 	db 30, AGILITY
 	db 36, DRAGONBREATH
-	db 42, HYDRO_PUMP
+	db 42, DRAGON_DANCE
+	db 48, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
@@ -1633,8 +1634,9 @@ SeadraEvosAttacks:
 	db 18, TWISTER
 	db 24, BUBBLEBEAM
 	db 30, AGILITY
-	db 40, DRAGONBREATH
-	db 50, HYDRO_PUMP
+	db 39, DRAGONBREATH
+	db 48, DRAGON_DANCE
+	db 57, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 GoldeenEvosAttacks:
@@ -1801,12 +1803,13 @@ GyaradosEvosAttacks:
 	db 1, THRASH
 	db 1, BITE
 	db 21, LEER
-	db 26, TWISTER
-	db 31, DRAGON_RAGE
-	db 36, RAIN_DANCE
-	db 41, CRUNCH
-	db 46, HYDRO_PUMP
-	db 51, HYPER_BEAM
+	db 25, TWISTER
+	db 29, DRAGON_RAGE
+	db 33, RAIN_DANCE
+	db 37, CRUNCH
+	db 41, DRAGON_DANCE
+	db 45, HYDRO_PUMP
+	db 49, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LaprasEvosAttacks:
@@ -2032,14 +2035,15 @@ DratiniEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 8, THUNDER_WAVE
-	db 15, TWISTER
-	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 36, AGILITY
-	db 43, SAFEGUARD
-	db 50, OUTRAGE
-	db 57, HYPER_BEAM
+	db 7, THUNDER_WAVE
+	db 13, TWISTER
+	db 19, DRAGON_RAGE
+	db 25, SLAM
+	db 31, AGILITY
+	db 37, SAFEGUARD
+	db 43, DRAGON_DANCE
+	db 49, OUTRAGE
+	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DragonairEvosAttacks:
@@ -2047,13 +2051,14 @@ DragonairEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 8, THUNDER_WAVE
-	db 15, TWISTER
-	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 38, AGILITY
-	db 47, SAFEGUARD
-	db 56, OUTRAGE
+	db 7, THUNDER_WAVE
+	db 13, TWISTER
+	db 19, DRAGON_RAGE
+	db 25, SLAM
+	db 33, AGILITY
+	db 41, SAFEGUARD
+	db 49, DRAGON_DANCE
+	db 57, OUTRAGE
 	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -2061,14 +2066,15 @@ DragoniteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 8, THUNDER_WAVE
-	db 15, TWISTER
-	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 38, AGILITY
-	db 47, SAFEGUARD
+	db 7, THUNDER_WAVE
+	db 13, TWISTER
+	db 19, DRAGON_RAGE
+	db 25, SLAM
+	db 33, AGILITY
+	db 41, SAFEGUARD
+	db 49, DRAGON_DANCE
 	db 54, WING_ATTACK
-	db 61, OUTRAGE
+	db 62, OUTRAGE
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -3154,8 +3160,9 @@ KingdraEvosAttacks:
 	db 18, TWISTER
 	db 24, BUBBLEBEAM
 	db 30, AGILITY
-	db 40, DRAGONBREATH
-	db 50, HYDRO_PUMP
+	db 39, DRAGONBREATH
+	db 48, DRAGON_DANCE
+	db 57, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 PhanpyEvosAttacks:
