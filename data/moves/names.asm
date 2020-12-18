@@ -25,7 +25,7 @@ MoveNames::
 	db "DOUBLE KICK@"
 	db "MEGA KICK@"
 	db "JUMP KICK@"
-	db "ROLLING KICK@"
+	db "DRAGON DANCE@"
 	db "SAND-ATTACK@"
 	db "HEADBUTT@"
 	db "HORN ATTACK@"

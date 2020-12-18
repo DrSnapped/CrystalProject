@@ -27,7 +27,7 @@ BattleAnimations::
 	dw BattleAnim_DoubleKick
 	dw BattleAnim_MegaKick
 	dw BattleAnim_JumpKick
-	dw BattleAnim_RollingKick
+	dw BattleAnim_DragonDance
 	dw BattleAnim_SandAttack
 	dw BattleAnim_Headbutt
 	dw BattleAnim_HornAttack
@@ -1723,6 +1723,7 @@ BattleAnim_Softboiled:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_DragonDance:
 BattleAnim_FocusEnergy:
 	anim_1gfx ANIM_GFX_SPEED
 	anim_call BattleAnim_TargetObj_1Row

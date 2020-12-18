@@ -34,4 +34,5 @@ StallMoves:
 	db CONVERSION
 	db SUBSTITUTE
 	db FLAME_WHEEL
+	db DRAGON_DANCE
 	db -1 ; end

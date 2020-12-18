@@ -26,7 +26,7 @@ MoveDescriptions::
 	dw DoubleKickDescription
 	dw MegaKickDescription
 	dw JumpKickDescription
-	dw RollingKickDescription
+	dw DragonDanceDescription
 	dw SandAttackDescription
 	dw HeadbuttDescription
 	dw HornAttackDescription
@@ -365,9 +365,9 @@ JumpKickDescription:
 	db   "May miss, damaging"
 	next "the user.@"
 
-RollingKickDescription:
-	db   "A fast, spinning"
-	next "kick.@"
+DragonDanceDescription:
+	db   "Dances to raise"
+	next "ATTACK and SPEED.@"
 
 SandAttackDescription:
 	db   "Reduces accuracy"
