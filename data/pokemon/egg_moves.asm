@@ -31,6 +31,7 @@ CharmanderEggMoves:
 	db OUTRAGE
 	db BEAT_UP
 	db CRUNCH
+	db DRAGON_DANCE
 	db -1 ; end
 
 SquirtleEggMoves:
@@ -455,6 +456,7 @@ LaprasEggMoves:
 	db FUTURE_SIGHT
 	db HORN_DRILL
 	db DRILL_RUN
+	db DRAGON_DANCE
 	db -1 ; end
 
 EeveeEggMoves:
@@ -527,6 +529,7 @@ TotodileEggMoves:
 	db ANCIENTPOWER
 	db RAZOR_WIND
 	db ROCK_SLIDE
+	db DRAGON_DANCE
 	db -1 ; end
 
 SentretEggMoves:
@@ -921,6 +924,7 @@ LarvitarEggMoves:
 	db OUTRAGE
 	db FOCUS_ENERGY
 	db ANCIENTPOWER
+	db DRAGON_DANCE
 	db -1 ; end
 
 NoEggMoves:
