@@ -3445,15 +3445,15 @@ HoOhEvosAttacks:
 
 CelebiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEECH_SEED
 	db 1, CONFUSION
-	db 1, RECOVER
-	db 1, HEAL_BELL
 	db 10, SAFEGUARD
-	db 20, ANCIENTPOWER
-	db 30, FUTURE_SIGHT
+	db 20, LEECH_SEED
+	db 30, ANCIENTPOWER
 	db 40, BATON_PASS
-	db 50, PERISH_SONG
+	db 50, HEAL_BELL
+	db 60, RECOVER
+	db 70, FUTURE_SIGHT
+	db 80, PERISH_SONG
 	db 0 ; no more level-up moves
 
 YanmegaEvosAttacks:
